@@ -10,24 +10,16 @@ import UIKit
 
 let kFakeCopyImageViewTag = 1986
 
+@objc
+protocol ImagePanGestureHandler: class {
+    func handlePan(_ recognizer: UIPanGestureRecognizer)
+}
+
 class CollectionSelectorViewController: UIViewController {
     
     @IBOutlet weak var imageView: UIImageView!
     var imagename:String = ""
-    var delegate:UIViewController?
-    
-    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
-        super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
-    }
-    
-    required init(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
-    }
-    
-    init(imageName image:String) {
-        super.init(nibName: "CollectionSelectorViewController", bundle: nil)
-        imagename = image;
-    }
+    var delegate:ImagePanGestureHandler!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,8 +27,8 @@ class CollectionSelectorViewController: UIViewController {
         imageView.image = UIImage(named: imagename)
         imageView.layer.cornerRadius = 10.0
         imageView.layer.masksToBounds = true
-        
-        let panGesture = UIPanGestureRecognizer(target: delegate!, action: "handlePan:")
+
+        let panGesture = UIPanGestureRecognizer(target: delegate, action: #selector(ImagePanGestureHandler.handlePan(_:)))
         imageView!.addGestureRecognizer(panGesture)
     }
 

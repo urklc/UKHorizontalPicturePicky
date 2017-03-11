@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "ABAF989AFFB8F7A9616424737349DBD4B39792EF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F6BE3EFC9E8B0E34D687D3795166D2AD69B3BBC1" : 9223372036854775807,
+    "ABAF989AFFB8F7A9616424737349DBD4B39792EF" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "CF31DDF1-A85F-48BC-A93D-1CBE0BE558E0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F6BE3EFC9E8B0E34D687D3795166D2AD69B3BBC1" : "",
+    "ABAF989AFFB8F7A9616424737349DBD4B39792EF" : "UKHorizontalPicturePicky\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "UKPickyDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "UKPickyDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "personal:urklc\/UKHorizontalPicturePicky.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "ABAF989AFFB8F7A9616424737349DBD4B39792EF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "personal:urklc\/Anchors.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F6BE3EFC9E8B0E34D687D3795166D2AD69B3BBC1"
+    }
+  ]
+}

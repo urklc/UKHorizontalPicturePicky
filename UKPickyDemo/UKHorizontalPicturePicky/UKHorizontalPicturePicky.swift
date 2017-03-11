@@ -11,15 +11,15 @@ import UIKit
 let hppImageViewTag = 1
 
 class UKHorizontalPicturePicky: UICollectionView {
-    
-    required init(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
-        
-        var flowLayout:UICollectionViewFlowLayout = UICollectionViewFlowLayout()
-        flowLayout.scrollDirection = .Horizontal
+
+    override func awakeFromNib() {
+        super.awakeFromNib()
+
+        let flowLayout:UICollectionViewFlowLayout = UICollectionViewFlowLayout()
+        flowLayout.scrollDirection = .horizontal
         flowLayout.minimumInteritemSpacing = 5.0
         flowLayout.minimumLineSpacing = 5.0
-        flowLayout.itemSize = CGSizeMake(140, 140)
+        flowLayout.itemSize = CGSize(width: 140, height: 140)
         self.collectionViewLayout = flowLayout
     }
 }
