@@ -11,4 +11,4 @@ Usage
 ---------------------
 You provide an array of pictures to the UKHorizontalPicturePicky object in your active UIViewController. And just decide what to with the image when panning is done in handlePan function.
 
-![Preview](http://urklc.com/UKPicturePicky.gif)
+![Preview](https://github.com/urklc/UKHorizontalPicturePicky/blob/master/UKPicturePicky.gif)
